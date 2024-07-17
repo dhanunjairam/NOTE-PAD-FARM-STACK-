@@ -1,0 +1,76 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Adjust the width as needed */
+    padding: 20px;
+    background-color: #fff; /* White background for the form */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  .email-input {
+    padding: 15px;
+    margin-bottom: 15px; /* Space below email input */
+    margin-right: 40px;
+    margin-left: 150px;
+    border: 1px solid #ddd; /* Light gray border */
+    max-width: 400px; 
+    max-height: 40px;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Increased font size for better readability */
+    outline: none;
+  }
+  
+  .password-input {
+    padding: 15px;
+    margin-bottom: 20px; /* Space below password input */
+    margin-right: 40px;
+    margin-left: 150px;
+    max-width: 400px; 
+    max-height: 40px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Increased font size for better readability */
+    outline: none;
+  }
+  .register-input:focus {
+    border-color: #007bff; /* Blue border on focus */
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    margin-right: 40px;
+    margin-left: 220px;
+    border-radius: 5px;
+  
+    max-width: 400px; 
+    max-height: 80px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size for better readability */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .register-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px; /* Slightly smaller font size for the message */
+  }
+  

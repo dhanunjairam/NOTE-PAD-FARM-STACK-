@@ -1,0 +1,101 @@
+
+.App-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: rgba(0, 0, 0, 0.1); /* Optional: background color for the whole page */
+}
+
+.App {
+  width: 90%;
+  max-width: 600px;
+  min-height: 400px; /* Set a minimum height for the container */
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+  padding: 20px;
+  border-radius: 10px; /* Optional: rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: box shadow for depth */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Wrap buttons on smaller screens */
+  gap: 10px; /* Space between buttons */
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif; /* Modern font */
+  font-size: 1rem; /* Adjust font size as needed */
+  font-weight: 500; /* Semi-bold text */
+  padding: 10px 20px; /* Padding for buttons */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center the text */
+}
+.app-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.app-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.app-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.app-copyright {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 2rem;
+}
+
+.bg-gradient {
+  background: linear-gradient(135deg, #007bff, #00bfff);
+}
+
+/* App.css */
+.app-background {
+  background: url('./bg.jpg') no-repeat center center fixed; /* Background image */
+  background-size: cover; /* Cover the entire viewport */
+  min-height: 100vh; /* Ensure the background covers the viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+.bold-notepad-title {
+  font-family: 'Roboto', sans-serif; /* Modern font */
+  font-size: 2rem; /* Adjust font size as needed */
+  font-weight: 700; /* Bold text */
+  color: white; /* Text color */
+  background-color: #007bff; /* Primary background color */
+  padding: 10px;
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /* Center the text */
+  margin-bottom: 10px; /* Space between the title and subtitle */
+  max-width: 100%; /* Ensure it fits within the container */
+}
+
+.card-subtitle {
+  font-family: 'Roboto', sans-serif; /* Modern font */
+  font-size: 1rem; /* Adjust font size as needed */
+  font-weight: 500; /* Semi-bold text */
+  color: white; /* Text color */
+  background-color: #007bff; /* Primary background color */
+  padding: 5px;
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /* Center the text */
+  margin-top: 0; /* Adjust margin as needed */
+  max-width: 100%; /* Ensure it fits within the container */
+}
